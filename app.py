@@ -4,15 +4,15 @@ import random, html
 app = Flask(__name__)
 
 COMPLIMENTS = [
-    "You look amazing today ✨",
-    "You have the kindest heart 💖",
-    "Your laugh is contagious 😄",
+    "You look amazing today 🎀",
+    "You have the kindest heart 🎀",
+    "Your laugh is contagious 🎀",
     "You make everything better 🌸",
-    "You’re effortlessly charming 😍",
-    "You light up every room 🌟",
-    "Talking to you makes my day 💫",
-    "Your smile is pure sunshine ☀️",
-    "You have great taste 😌",
+    "You’re effortlessly charming 🎀",
+    "You light up every room 🎀",
+    "Talking to you makes my day 🎀",
+    "Your smile is pure sunshine 🎀",
+    "You have great taste 🎀",
     "You’re wonderfully thoughtful 💐",
 ]
 
@@ -36,7 +36,7 @@ def home():
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>💫 A Little Compliment</title>
+<title>🎀 A Little Compliment</title>
 <style>
   html,body{{height:100%;margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Inter,sans-serif;}}
   body{{display:flex;align-items:center;justify-content:center;background:#fff8f0;}}
