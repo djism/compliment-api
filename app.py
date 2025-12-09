@@ -399,7 +399,7 @@ def home():
 def api():
     name = request.args.get("n") or request.args.get("name")
     name_text = f"{html.escape(name.strip())}, " if name else ""
-    return jsonify({{"message": f"{name_text}Get well soon, and finish all your work and meet me, I miss those tiny hands to hold"}})
+    return jsonify({{"message": f"{name_text}Get well soon, and finish all your work, I miss those tiny hands to hold"}})
 
 if __name__ == "__main__":
     # Create static folder if it doesn't exist
